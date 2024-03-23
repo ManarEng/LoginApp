@@ -1,0 +1,52 @@
+********************************************************************************
+product = Open Liberty 24.0.0.2 (wlp-1.0.86.cl240220240212-1928)
+wlp.install.dir = C:/Users/PC/Downloads/fffggrrtt/test/target/liberty/wlp/
+java.home = C:\Program Files\Java\jdk-19
+java.version = 19
+java.runtime = Java(TM) SE Runtime Environment (19+36-2238)
+os = Windows 10 (10.0; amd64) (fr_FR)
+process = 14684@DESKTOP-AC7LHC6
+Classpath = C:\Users\PC\Downloads\fffggrrtt\test\target\liberty\wlp\bin\tools\ws-server.jar
+Java Library path = C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\app\PC\product\11.2.0\dbhome_1\bin;C:\oracle_sql_dev\oracle\dbhomeXE\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW;C:\Program Files\dotnet\;C:\xampp\php;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Java\jdk-19\bin;C:\Program Files\apache-maven-3.9.6\bin;C:\Program Files\MySQL\MySQL Shell 8.2\bin\;C:\MinGW\bin;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\AppData\Local\Programs\Microsoft VS Code;C:\Users\PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\PC\.dotnet\tools;C:\Users\PC\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\PC\.dotnet\tools;C:\Program Files\Azure Data Studio\bin;C:\Program Files\apache-maven-3.9.6\bin;.
+********************************************************************************
+[28/02/2024 07:47:10:635 GMT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: Le serveur testServer a été lancé.
+[28/02/2024 07:47:12:234 GMT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: Noyau démarré après 7 secondes
+[28/02/2024 07:47:12:482 GMT] 00000030 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Mise à jour de fonction démarrée.
+[28/02/2024 07:47:13:143 GMT] 00000025 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Recherche d'applications dans dropins.
+[28/02/2024 07:47:20:697 GMT] 00000032 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Démarrage de l'application test.
+[28/02/2024 07:47:20:699 GMT] 00000032 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: L'application test utilise la définition d'application souple à l'emplacement C:\Users\PC\Downloads\fffggrrtt\test\target\liberty\wlp\usr\servers\testServer\apps\test.war.xml.
+[28/02/2024 07:47:22:090 GMT] 00000032 org.jboss.weld.Version                                       I WELD-000900: 5.1.1 (SP1)
+[28/02/2024 07:47:24:012 GMT] 00000032 com.ibm.ws.session.WASSessionCore                            I SESN8501I: Le gestionnaire de sessions n'a pas trouvé d'emplacement de stockage de persistance. Les objets HttpSession seront enregistrés dans la mémoire du serveur d'applications local.
+[28/02/2024 07:47:24:024 GMT] 00000032 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Chargement du module Web : Hello Servlet.
+[28/02/2024 07:47:24:030 GMT] 00000032 com.ibm.ws.webcontainer                                      I SRVE0250I: Module Web Hello Servlet lié à default_host.
+[28/02/2024 07:47:24:031 GMT] 00000032 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Application Web disponible, (default_host) : http://localhost:9080/test/
+[28/02/2024 07:47:24:094 GMT] 00000034 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Un nouveau contexte de session sera créé pour la clé d'application default_host/test
+[28/02/2024 07:47:24:138 GMT] 00000034 com.ibm.ws.util                                              I SESN0172I: Le gestionnaire de session utilise l'implémentation Java par défaut de SecureRandom pour la génération des ID de session.
+[28/02/2024 07:47:24:143 GMT] 00000032 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Un fichier de configuration pour un plug-in de serveur Web a été automatiquement généré pour ce serveur à C:\Users\PC\Downloads\fffggrrtt\test\target\liberty\wlp\usr\servers\testServer\logs\state\plugin-cfg.xml.
+[28/02/2024 07:47:24:291 GMT] 00000034 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application test démarrée en 3,593 secondes.
+[28/02/2024 07:47:24:312 GMT] 00000030 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: Le canal TCP defaultHttpEndpoint a été démarré et écoute à présent les demandes parvenant à l'hôte 127.0.0.1  (IPv4: 127.0.0.1), sur le port 9080.
+[28/02/2024 07:47:24:354 GMT] 00000030 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: Le serveur a installé les fonctions suivantes : [cdi-4.0, expressionLanguage-5.0, jdbc-4.3, pages-3.1, servlet-6.0].
+[28/02/2024 07:47:24:356 GMT] 00000030 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Mise à jour de fonction terminée en 12,123 secondes.
+[28/02/2024 07:47:24:356 GMT] 00000030 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: Le serveur testServer est prêt pour une planète plus intelligente. Il a démarré en 19,124 secondes.
+[28/02/2024 07:47:29:503 GMT] 00000032 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [test] [/test] [/index.jsp]: L'initialisation a abouti.
+[28/02/2024 07:47:36:525 GMT] 00000033 com.ibm.ws.jca.cm.ConnectorService                           I J2CA8050I: Utilisez un alias d'authentification au lieu de définir un nom d'utilisateur et un mot de passe sur dataSource[default-0].
+[28/02/2024 07:47:36:953 GMT] 00000033 com.ibm.ws.recoverylog.spi.RecoveryDirectorImpl              I CWRLS0010I: Exécution de la procédure de reprise pour le serveur WebSphere local (testServer).
+[28/02/2024 07:47:37:052 GMT] 00000033 com.ibm.ws.recoverylog.spi.RecoveryDirectorImpl              I CWRLS0012I: Le système a demandé à tous les services persistants d'exécuter la procédure de reprise pour ce serveur WebSphere (testServer).
+[28/02/2024 07:47:37:052 GMT] 00000045 com.ibm.tx.jta.impl.RecoveryManager                          I WTRN0135I: Le service de transaction ne reprend pas de transactions.
+[28/02/2024 07:47:37:077 GMT] 00000033 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [test] [/test] [com.example.controllers.LoginServlet]: L'initialisation a abouti.
+[28/02/2024 07:47:37:721 GMT] 00000033 com.ibm.ws.rsadapter.impl.DatabaseHelper                     I DSRA8203I: Nom de la base de données : MySQL
+[28/02/2024 07:47:37:724 GMT] 00000033 com.ibm.ws.rsadapter.impl.DatabaseHelper                     I DSRA8204I: Version de la base de données : 5.5.5-10.4.24-MariaDB
+[28/02/2024 07:47:37:724 GMT] 00000033 com.ibm.ws.rsadapter.impl.DatabaseHelper                     I DSRA8205I: Nom du pilote JDBC : MySQL Connector/J
+[28/02/2024 07:47:37:724 GMT] 00000033 com.ibm.ws.rsadapter.impl.DatabaseHelper                     I DSRA8206I: Version du pilote JDBC : mysql-connector-java-8.0.28 (Revision: 7ff2161da3899f379fb3171b6538b191b1c5c7e2)
+[28/02/2024 07:47:37:921 GMT] 00000034 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [test] [/test] [/home.jsp]: L'initialisation a abouti.
+[28/02/2024 07:52:39:163 GMT] 00000020 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Arrêt du serveur demandé le mercredi 28 février 2024 à 07:52. Le serveur testServer est en cours d'arrêt.
+[28/02/2024 07:52:39:169 GMT] 00000047 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Attente jusqu'à 30 secondes de la mise au repos du serveur.
+[28/02/2024 07:52:39:175 GMT] 00000036 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: Le canal TCP defaultHttpEndpoint a arrêté l'écoute des demandes parvenant à l'hôte 127.0.0.1  (IPv4: 127.0.0.1), sur le port 9080.
+[28/02/2024 07:52:39:176 GMT] 00000036 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Application Web supprimée (default_host) : http://localhost:9080/test/
+[28/02/2024 07:52:39:179 GMT] 00000047 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Mise au repos du serveur terminée.
+[28/02/2024 07:52:39:230 GMT] 00000033 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [test] [/test] [com.example.controllers.LoginServlet] : La suppression a abouti.
+[28/02/2024 07:52:39:231 GMT] 00000033 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [test] [/test] [/index.jsp] : La suppression a abouti.
+[28/02/2024 07:52:39:232 GMT] 00000033 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [test] [/test] [/home.jsp] : La suppression a abouti.
+[28/02/2024 07:52:39:255 GMT] 00000033 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: L'application test s'est arrêtée correctement.
+[28/02/2024 07:52:39:380 GMT] 00000047 com.ibm.tx.jta.impl.FailureScopeController                   A WTRN0105I: Le service de transaction s'est arrêté avec succès, aucune transaction ne devant faire l'objet d'une reprise.
+[28/02/2024 07:52:39:874 GMT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: Le serveur testServer a été arrêté après 5 minutes, 34,641 secondes.

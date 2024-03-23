@@ -1,0 +1,13 @@
+
+arg0=--batch-file=--stop
+arg1=stop
+arg2=projectServer
+exit=1
+
+                 Java home:  C:\Program Files\Java\jdk-19
+              Install root:  C:/Users/PC/Downloads/fffggrrtt/test/target/liberty/wlp/
+          System libraries:  C:/Users/PC/Downloads/fffggrrtt/test/target/liberty/wlp/lib/
+                 User root:  C:/Users/PC/Downloads/fffggrrtt/test/target/liberty/wlp/usr/
+                    Config:  C:/Users/PC/Downloads/fffggrrtt/test/target/liberty/wlp/usr/servers/projectServer/
+                    Output:  C:/Users/PC/Downloads/fffggrrtt/test/target/liberty/wlp/usr/servers/projectServer/
+

@@ -1,0 +1,39 @@
+********************************************************************************
+product = Open Liberty 24.0.0.1 (wlp-1.0.85.cl240120240115-2042)
+wlp.install.dir = C:/Users/PC/Downloads/fffggrrtt/test/target/liberty/wlp/
+java.home = C:\Program Files\Java\jdk-19
+java.version = 19
+java.runtime = Java(TM) SE Runtime Environment (19+36-2238)
+os = Windows 10 (10.0; amd64) (fr_FR)
+process = 15232@DESKTOP-AC7LHC6
+Classpath = C:\Users\PC\Downloads\fffggrrtt\test\target\liberty\wlp\bin\tools\ws-server.jar
+Java Library path = C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\oracle_sql_dev\oracle\dbhomeXE\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW;C:\Program Files\dotnet\;C:\xampp\php;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Java\jdk-19\bin;C:\Program Files\apache-maven-3.9.6\bin;C:\Program Files\MySQL\MySQL Shell 8.2\bin\;C:\MinGW\bin;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\AppData\Local\Programs\Microsoft VS Code;C:\Users\PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\PC\AppData\Local\GitHubDesktop\bin;C:\Users\PC\.dotnet\tools;C:\Users\PC\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\PC\AppData\Roaming\npm;C:\Users\PC\.dotnet\tools;C:\Program Files\Azure Data Studio\bin;C:\Program Files\apache-maven-3.9.6\bin;;.
+********************************************************************************
+[25/02/2024 13:40:39:923 GMT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: Le serveur projectServer a été lancé.
+[25/02/2024 13:40:43:223 GMT] 00000024 com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Traitement de la ressource de suppression de configuration : C:\Users\PC\Downloads\fffggrrtt\test\target\liberty\wlp\usr\servers\projectServer\configDropins\defaults\install_apps_configuration_1491924271.xml
+[25/02/2024 13:40:43:802 GMT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: Noyau démarré après 9,071 secondes
+[25/02/2024 13:40:44:566 GMT] 00000030 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Mise à jour de fonction démarrée.
+[25/02/2024 13:40:47:498 GMT] 00000024 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Recherche d'applications dans dropins.
+[25/02/2024 13:40:53:318 GMT] 00000038 com.ibm.ws.app.manager.AppMessageHelper                      W CWWKZ0014W: L'application test n'a pas pu être démarrée car elle n'a pas été trouvée à l'emplacement test.war.
+[25/02/2024 13:40:53:370 GMT] 00000031 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Démarrage de l'application project.
+[25/02/2024 13:40:53:374 GMT] 00000031 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: L'application project utilise la définition d'application souple à l'emplacement C:\Users\PC\Downloads\fffggrrtt\test\target\liberty\wlp\usr\servers\projectServer\apps\project.war.xml.
+[25/02/2024 13:40:56:145 GMT] 00000031 org.jboss.weld.Version                                       I WELD-000900: 5.1.1 (SP1)
+[25/02/2024 13:40:58:400 GMT] 00000031 com.ibm.ws.session.WASSessionCore                            I SESN8501I: Le gestionnaire de sessions n'a pas trouvé d'emplacement de stockage de persistance. Les objets HttpSession seront enregistrés dans la mémoire du serveur d'applications local.
+[25/02/2024 13:40:58:416 GMT] 00000031 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Chargement du module Web : Hello Servlet.
+[25/02/2024 13:40:58:422 GMT] 00000031 com.ibm.ws.webcontainer                                      I SRVE0250I: Module Web Hello Servlet lié à default_host.
+[25/02/2024 13:40:58:423 GMT] 00000031 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Application Web disponible, (default_host) : http://localhost:9080/project/
+[25/02/2024 13:40:58:461 GMT] 00000032 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Un nouveau contexte de session sera créé pour la clé d'application default_host/project
+[25/02/2024 13:40:58:485 GMT] 00000032 com.ibm.ws.util                                              I SESN0172I: Le gestionnaire de session utilise l'implémentation Java par défaut de SecureRandom pour la génération des ID de session.
+[25/02/2024 13:40:58:583 GMT] 00000032 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application project démarrée en 5,213 secondes.
+[25/02/2024 13:40:58:657 GMT] 00000030 com.ibm.ws.tcpchannel.internal.TCPPort                       E CWWKO0221E: L'initialisation du canal TCP defaultHttpEndpoint n'a pas réussi.  La liaison de socket n'a pas abouti pour l'hôte localhost et le port 9080.  Le port est peut-être déjà utilisé.  Message de l'exception : Address already in use: bind
+[25/02/2024 13:40:58:663 GMT] 00000030 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: Le canal TCP defaultHttpEndpoint a arrêté l'écoute des demandes parvenant à l'hôte localhost, sur le port 9080.
+[25/02/2024 13:40:58:664 GMT] 00000030 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Application Web supprimée (default_host) : http://localhost:9080/project/
+[25/02/2024 13:40:58:865 GMT] 00000030 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: Le serveur a installé les fonctions suivantes : [cdi-4.0, jdbc-4.3, servlet-6.0].
+[25/02/2024 13:40:58:874 GMT] 00000030 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Mise à jour de fonction terminée en 15,072 secondes.
+[25/02/2024 13:40:58:877 GMT] 00000030 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: Le serveur projectServer est prêt pour une planète plus intelligente. Il a démarré en 24,149 secondes.
+[25/02/2024 13:40:58:969 GMT] 00000034 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Un fichier de configuration pour un plug-in de serveur Web a été automatiquement généré pour ce serveur à C:\Users\PC\Downloads\fffggrrtt\test\target\liberty\wlp\usr\servers\projectServer\logs\state\plugin-cfg.xml.
+[25/02/2024 20:28:56:738 GMT] 00000020 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Arrêt du serveur demandé le dimanche 25 février 2024 à 20:28. Le serveur projectServer est en cours d'arrêt.
+[25/02/2024 20:28:56:812 GMT] 00000277 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Attente jusqu'à 30 secondes de la mise au repos du serveur.
+[25/02/2024 20:28:56:841 GMT] 00000277 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Mise au repos du serveur terminée.
+[25/02/2024 20:28:57:005 GMT] 00000255 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: L'application project s'est arrêtée correctement.
+[25/02/2024 20:28:58:019 GMT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: Le serveur projectServer a été arrêté après 6 heures, 48 minutes, 23,296 secondes.
